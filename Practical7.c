@@ -25,7 +25,7 @@ int main() {
     char input[MAX], stack[MAX];
     int top = -1;
     
-    printf("Enter the expression (e.g. a+b*c): ");
+    printf("Enter the expression: ");
     scanf("%s", input);
     
     int i = 0;
